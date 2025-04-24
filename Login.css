@@ -1,0 +1,54 @@
+.login_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    height: 100vh;
+}
+.btn {
+    height: 50px;
+    width: 51%;
+    line-height: 50px;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    background : #35aa47;
+    color: #fff;
+    }
+.password-btn{
+    height: 50px;
+    width: 49%;
+    line-height: 50px;
+    border: 1px solid #dfdfdf !important;
+    background: transparent;
+    border-radius: 4px;
+    padding-left: 1.5rem;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+}
+.password-btn:hover{
+    background: #f5f5f5;
+    border: 1px solid #dfdfdf !important;
+}
+.username-btn{
+    height: 50px;
+    width: 49%;
+    line-height: 50px;
+    border: 1px solid #dfdfdf !important;
+    background: transparent;
+    border-radius: 4px;
+    padding-left: 1.5rem;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+}  
+.username-btn:hover{
+    background: #f5f5f5;
+    border: 1px solid #dfdfdf !important;
+}
