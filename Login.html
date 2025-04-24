@@ -5,24 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <link rel="stylesheet" href="Login.css">
-    <link rel="stylesheet" href="Login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" 
+    href="https://fonts.gstatic.com" crossorigin>
+    <link 
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" 
+    rel="stylesheet">
 </head>
 <body>
 
-    <div>
+    <div class="logo">
         <img 
         src="https://appclick.ng/portal/uploads/school_content/admin_logo/1692202493-89741823864dcf5fd4617b!appclick-academy-logo-best-tech-training-center-in-ibadan-lagos-nigeria (1).png">
     </div>
 
    <div class="login_box">
     <form>
-        <h1>User Login</h1>
+        <h3 class="user-login">User Login</h3>
         <div class="username">
-            <input type="text" class="username-btn" placeholder="Username" name="username" required><br><br>
+            <input type="text" 
+            class="username-btn" 
+            placeholder="Username" 
+            name="username" required><br><br>
         </div>
 
         <div class="password">
-            <input type="password" class="password-btn" placeholder="Password" name="password" required><br><br>
+            <input 
+            type="password" 
+            class="password-btn" 
+            placeholder="Password" 
+            name="password" 
+            required><br><br>
         </div>
 
         <button type="submit" class="btn">
@@ -30,7 +43,13 @@
         </button>
         
     </form>
-    <p>Forget password <a href="register.html">click here</a></p>
+    <p>
+        <a class="forgot-password" href="register.html">
+        Forgot Password
+        <i class="fa fa-key">
+        </i>
+        </a>
+    </p>
    </div>
 
 </body>
