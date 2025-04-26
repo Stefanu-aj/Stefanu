@@ -1,3 +1,6 @@
+body {
+    background-color: gainsboro;
+}
 .navbar {
     display:flex;
     justify-content: space-between;
@@ -13,10 +16,10 @@
     gap: 35px;
     font-size: 15px;
     font-weight: bold;
-    color: #333;
+    color: black;
     padding: 16px 20px;
-    background-color: #fff;
     font-family: Source sans\3, sans-serif, arial;
+    cursor: pointer;
 }
 .nav-btns{
     display: flex;
