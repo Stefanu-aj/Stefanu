@@ -199,3 +199,10 @@ nav:hover {
         color: yellow;
     }
 }
+.Assignment {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+    color: black;
+}
