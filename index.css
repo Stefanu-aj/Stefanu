@@ -137,7 +137,7 @@ nav:hover {
 .short-image-pp {
     width: 35px;
     height: 35px;
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
