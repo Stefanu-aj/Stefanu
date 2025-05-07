@@ -12,54 +12,65 @@
     <link 
     href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" 
     rel="stylesheet">
+    <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
 </head>
 <body>
 
-    <div class="logo">
-        <img 
-        src="https://appclick.ng/portal/uploads/school_content/admin_logo/1692202493-89741823864dcf5fd4617b!appclick-academy-logo-best-tech-training-center-in-ibadan-lagos-nigeria (1).png">
-    </div>
-
-   <div class="login_box">
-    <form>
-        <h3 
-            class="user-login">
-            User Login
-        </h3>
-        <div 
-            class="username">
+    <div>
+        <div class="logo">
+            <img 
+                src="https://www.appclick.ng/assets/img/appclick-academy-logo-best-tech-training-center-in-ibadan-lagos-nigeria.png" 
+                alt="Logo" 
+                class="logo_img">
+        </div>
+    
+       <div class="login_box">
+        <form>
+            <h3 
+                class="user-login">
+                User Login
+            </h3>
+            <div 
+                class="username">
+                    <input 
+                        type="text" 
+                        class="login-btn" 
+                        placeholder="Username"  
+                        required
+                    ><br><br>
+                    <i class="fa-solid fa-envelope"></i>
+                    
+            </div>
+    
+            <div class="password">
+                <i class="fa-solid fa-lock"></i>
                 <input 
-                    type="text" 
-                    class="username-btn" 
-                    placeholder="Username" 
-                    name="username" 
+                    type="password" 
+                    class="login-btn" 
+                    placeholder="Password" 
                     required
-                ><br><br>
-        </div>
-
-        <div class="password">
-            <input 
-            type="password" 
-            class="password-btn" 
-            placeholder="Password" 
-            name="password" 
-            required><br><br>
-        </div>
-
-        <button 
-        type="submit" 
-        class="btn">
-            Sign In
-        </button>
-        
-    </form>
-    <p>
-        <a 
-        class="forgot-password" 
-        href="appclick.ng">
-        <b>Forgot Password</b>
-        </a>
-    </p>
+                    ><br><br>
+            </div>
+    
+            <button 
+                type="submit" 
+                class="btn">
+                Sign In
+            </button>
+            
+        </form>
+        <p>
+            <i class="fa-solid fa-key" style="color: #444;"></i>
+            <a 
+                class="forgot-password" 
+                href="appclick.ng">
+            <b>Forgot Password</b>
+            </a>
+        </p>
+ 
     </div>
 </body>
 </html>

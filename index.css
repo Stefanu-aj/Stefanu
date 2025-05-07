@@ -172,7 +172,6 @@ nav:hover {
     margin-top: 20px;
     margin-bottom: auto;
     padding: 0px 20px;
-
 }
 .text {
     display: flex;
@@ -182,6 +181,13 @@ nav:hover {
 .text-2 {
     display: flex;
     flex-direction: column;
+}
+.Assignment {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+    color: black;
 }
 @media (max-width: 600px) {
     .create-btn {
@@ -193,16 +199,7 @@ nav:hover {
     .title {
         color: red;
     }
-}
-@media (width: 720px) {
-    .title {
-        color: yellow;
+    .sub-section {
+        grid-template-columns: 1fr;
     }
-}
-.Assignment {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 50px;
-    color: black;
 }

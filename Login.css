@@ -1,13 +1,22 @@
 .logo {
-    padding-top: 25px;
-    padding-left: 45px;
-    padding-bottom: 5px;
+    width: 150px;
+    height: 80px;
+}
+.logo_img {
+    width: 100%;
+    margin-top: 9rem;
+    margin-left: 7rem;
+    align-items: center;
+    display: absolute;
+    position: relative;
 }
 .login_box {
     display: flex;
     flex-direction: column;
     justify-content: left;
     min-height: 100vh;
+    padding: 0 45px;
+    margin-top: 11.5rem;
 }
 .user-login {
     color: #444;
@@ -20,7 +29,7 @@
 }
 .btn {
     height: 50px;
-    width: 42%;
+    width: 28%;
     line-height: 50px;
     display: inline-block;
     padding: 6px 12px;
@@ -42,9 +51,9 @@
 .btn:hover {
     background-color: darkslategrey;
 }
-.password-btn {
-    height: 50px;
-    width: 40%;
+.login-btn {
+    height: 45px;
+    width: 26%;
     line-height: 50px;
     border: 1px solid #dfdfdf;
     background: transparent;
@@ -57,29 +66,10 @@
     line-height: normal;
     color: #888;
 }
-.password-btn:hover {
+.login-btn:hover {
     background: #f5f5f5;
-    border: 1px solid #dfdfdf;
 }
-.username-btn {
-    height: 50px;
-    width: 40%;
-    line-height: 50px;
-    border: 1px solid #dfdfdf;
-    background: transparent;
-    border-radius: 4px;
-    padding-left: 1.5rem;
-    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: normal;
-    color: #888;
-}  
-.username-btn:hover {
-    background: #f5f5f5;
-    border: 1px solid #dfdfdf;
-}
+
 .forgot-password {
     font-size: 12px;
     font-family: sans-serif;
@@ -87,4 +77,14 @@
     text-decoration: none;
     margin-top: 5px;
     margin-left:5px;
+}
+
+.password.fa-solid {
+    color: #888;
+    position: absolute;
+}
+.username.fa-solid {
+    color: #888;
+    position: absolute;
+    padding-right: 10px;
 }

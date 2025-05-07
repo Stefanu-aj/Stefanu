@@ -188,4 +188,9 @@ body {
     .nav-links-2 {
         display: none;
     }
+    .sign-up-btn {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
 }
